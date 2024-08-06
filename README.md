@@ -1,2 +1,2 @@
-# beast
+# Anabolic
 Workout Tracker
