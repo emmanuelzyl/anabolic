@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Workout Tracker</h1>
+        <button id="start-workout">Start an Empty Workout</button>
+        
+        <h2>My Templates</h2>
+        <div id="my-templates"></div>
+
+        <h2>Example Templates</h2>
+        <div id="example-templates"></div>
+
+        <h2>Create New Template</h2>
+        <form id="template-form">
+            <input type="text" id="template-name" placeholder="Template Name" required>
+            <textarea id="template-exercises" placeholder="Exercises (comma separated)" required></textarea>
+            <button type="submit">Create Template</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
